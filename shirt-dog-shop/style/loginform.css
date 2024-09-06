@@ -1,0 +1,98 @@
+#login-form {
+  display: none;
+  width: 20em;
+  box-shadow: gray 3px 3px 20px 3px;
+  border-radius: 10px;
+  position: fixed;
+  top: 25%;
+  left: 40%;
+  padding: 5px;
+  background-color: white;
+  z-index: 1;
+}
+
+
+.popuploginsection h2 {
+  text-align: center;
+  margin-left: 4px;
+  font-size: 15px;
+}
+
+.popuploginsection input {
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: rgb(215, 215, 215) solid 1px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.cancelbtn {
+  border: none;
+  background-color: white;
+}
+
+.cancelbtn:hover {
+  cursor: pointer;
+}
+
+.popuploginsection input:hover {
+  border: black 1px solid;
+}
+
+.loginbtn {
+  background-color: rgba(47, 196, 158, 1);
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0px 2px 0px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.loginbtn:hover {
+  cursor: pointer;
+  background-color: rgb(121, 214, 191);
+}
+
+.joinnowsection {
+  width: 85%;
+  padding: 10px;
+  margin-top: 30px;
+  padding-top: 5px;
+  border-top: black 1px solid;
+  text-align: center;
+}
+
+.joinnowsection h2 {
+  font-size: 13px
+}
+
+.joinnowsection a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #757575;
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #eff9f7;
+}
+
+.joinnowsection a:hover {
+  background-color: #e5f5e8;
+}
+
+#login-msg-section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 50%;
+  height: 3%;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 5px 15px 5px;
+}

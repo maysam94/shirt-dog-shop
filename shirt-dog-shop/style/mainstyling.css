@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+ html, body {
+   height: 100%;
+ }
+
+ body {
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+ }
+
+ header {
+   position: sticky;
+ }
+
+ .uppermenu {
+   display: flex;
+   flex-direction: row;
+   max-width: 100%;
+   max-height: 5%;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 20px;
+   padding-bottom: 20px;
+   border-bottom: 2px black solid;
+   margin-top: 20px;
+ }
+
+ .uppermenu h1 {
+   font-size: 20px;
+   margin-left: 30px;
+   color: rgb(63, 63, 63);
+ }
+
+ .uppermenu input {
+   font-size: 15px;
+   width: 50%;
+   padding: 10px;
+   border: gray solid 1px;
+   border-radius: 8px;
+ }
+
+ .uppermenu a {
+   text-decoration: none;
+   background-color: rgba(47, 196, 158, 1);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 20px;
+   max-height: 18px;
+ }
+
+ .uppermenu #shoppingCart {
+   background-color: white;
+   max-width: 10px;
+ }
+
+ .uppermenu button {
+   background-color: rgba(47, 196, 158, 1);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 10px;
+   padding-top: 15px;
+   height: 59px;
+ }
+
+ .uppermenu button:hover {
+   cursor: pointer;
+ }
+
+ .navfooter {
+   display: flex;
+   flex-shrink: 0;
+   flex-direction: column;
+   justify-content: flex-start;
+   position: relative;
+   bottom: 0px;
+   width: 100%;
+   background-color: rgb(43, 43, 43);
+   margin-top: 30px;
+ }
+
+ .navfooter li {
+   list-style: none;
+   background-color: rgb(43, 43, 43);
+ }
+
+ .navfooter a {
+   color: rgb(154, 154, 154);
+   text-decoration: none;
+ }
+
+ .navfooter a:hover {
+   color: rgb(89, 89, 89);
+ }
+
+ .navfooter h2 {
+   color: rgb(181, 180, 180);
+   padding: 10px;
+   font-size: 15px;
+ }

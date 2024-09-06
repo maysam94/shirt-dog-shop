@@ -1,0 +1,12 @@
+.welcome-home {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.welcome-home h2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 7em;
+  font-size: 30px;
+}

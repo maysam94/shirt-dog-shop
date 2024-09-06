@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShirtDogShop</title>
+    <link rel="stylesheet" href="/style/mainstyling.css" />
+    <link rel="stylesheet" href="/style/loginform.css" />
+    <link rel="stylesheet" href="/style/homestyling.css" />
+    <script src="/build/loginform.js"></script>
+    <script src="/build/login.js"></script>
+    '
+    <script src="/build/logged_in_nav.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section class="uppermenu" id="nav-bar">
+          <h1>ShirtDogShop</h1>
+          <a href="./index.html">STORE</a>
+          <input
+            type="text"
+            placeholder="What would you like to 3D print today?"
+          />
+          <a href="./signup.html" id="join-nav">JOIN</a>
+          <button
+            type="button"
+            onclick="
+        openForm()"
+            id="login-nav"
+          >
+            LOGIN
+          </button>
+        </section>
+      </nav>
+    </header>
+    <section class="popuploginsection" id="login-form">
+      <h2>Login to ShirtDogShop</h2>
+      <form class="loginformcontainer">
+        <button type="button" class="cancelbtn" onclick="closeForm()">
+          <img
+            src="/style/images/close-button-png-30231 (1).png"
+            width="20px"
+            height="20px"
+          />
+        </button>
+        <input
+          type="text"
+          placeholder="Enter your e-mail"
+          name="email"
+          id="email-attempt"
+          autocomplete="on"
+        />
+        <input
+          type="password"
+          placeholder="Enter password"
+          name="password"
+          id="password-attempt"
+          autocomplete="on"
+        />
+        <button type="button" class="loginbtn" onclick="loginProcess()">
+          LOGIN
+        </button>
+      </form>
+      <section class="joinnowsection">
+        <h2>Don't have an account? <a href="./signup.html">JOIN NOW</a></h2>
+      </section>
+    </section>
+
+    <section class="welcome-home">
+      <h2>
+        Welcome at the ShirtDogShop. Feel free to register early, the shop will
+        be opened soon!
+      </h2>
+    </section>
+    <footer>
+      <nav class="navfooter">
+        <h2>ShirtdogShop</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How it works</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
